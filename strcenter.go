@@ -96,6 +96,9 @@ func getPixelLength(line string) int {
 	split := strings.Split(line, "§")
 	bold := false
 	for _, s := range split {
+		if len(s) == 0 {
+			continue
+		}
 		switch s[0] {
 		case 'l':
 			bold = true
