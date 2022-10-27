@@ -1,4 +1,4 @@
-package strcenter
+package strutils
 
 // https://github.com/NiclasOlofsson/MiNET/blob/master/src/MiNET/MiNET/Utils/TextUtils.cs
 
